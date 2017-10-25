@@ -57,8 +57,8 @@ module.exports = {
 
 	plugins: [
 	  new htmlWebpackPlugin({
-		filename: 'main.html',
-		template: 'index.html'
+		filename: 'index.html',
+		template: 'main.html'
 	  })
 	]
 };
