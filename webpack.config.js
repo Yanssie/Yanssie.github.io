@@ -58,7 +58,11 @@ module.exports = {
 	plugins: [
 	  new htmlWebpackPlugin({
 		filename: 'index.html',
-		template: 'main.html'
+		template: 'main.html',
+		minify: {
+			removeComments: true,
+			collapseWhitespace: true
+		}
 	  })
 	]
 };
